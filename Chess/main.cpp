@@ -1,3 +1,8 @@
+class Bishop;
+class BlackPawn;
+class WhitePawn;
+class Rook;
+class King;
 #include "Bishop.hpp"
 #include "BlackPawn.hpp"
 #include "Chess.hpp"

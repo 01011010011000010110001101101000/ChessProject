@@ -15,6 +15,7 @@
 		80967F292814CD9900E13839 /* Bishop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80967F272814CD9900E13839 /* Bishop.cpp */; };
 		80967F2C2814CDA200E13839 /* King.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80967F2A2814CDA200E13839 /* King.cpp */; };
 		80967F2F2814CDAF00E13839 /* Rook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80967F2D2814CDAF00E13839 /* Rook.cpp */; };
+		80967F322814D0C400E13839 /* TestCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80967F302814D0C400E13839 /* TestCode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		80967F2B2814CDA200E13839 /* King.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = King.hpp; sourceTree = "<group>"; };
 		80967F2D2814CDAF00E13839 /* Rook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rook.cpp; sourceTree = "<group>"; };
 		80967F2E2814CDAF00E13839 /* Rook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rook.hpp; sourceTree = "<group>"; };
+		80967F302814D0C400E13839 /* TestCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestCode.cpp; sourceTree = "<group>"; };
+		80967F312814D0C400E13839 /* TestCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestCode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,23 @@
 		80967F082814CD4400E13839 = {
 			isa = PBXGroup;
 			children = (
+				80967F142814CD4400E13839 /* main.cpp */,
+				80967F302814D0C400E13839 /* TestCode.cpp */,
+				80967F1B2814CD6E00E13839 /* Chess.cpp */,
+				80967F1C2814CD6E00E13839 /* Chess.hpp */,
+				80967F312814D0C400E13839 /* TestCode.hpp */,
+				80967F1E2814CD7900E13839 /* Square.cpp */,
+				80967F212814CD8400E13839 /* WhitePawn.cpp */,
+				80967F242814CD8F00E13839 /* BlackPawn.cpp */,
+				80967F272814CD9900E13839 /* Bishop.cpp */,
+				80967F2A2814CDA200E13839 /* King.cpp */,
+				80967F2D2814CDAF00E13839 /* Rook.cpp */,
+				80967F2E2814CDAF00E13839 /* Rook.hpp */,
+				80967F2B2814CDA200E13839 /* King.hpp */,
+				80967F282814CD9900E13839 /* Bishop.hpp */,
+				80967F252814CD8F00E13839 /* BlackPawn.hpp */,
+				80967F222814CD8400E13839 /* WhitePawn.hpp */,
+				80967F1F2814CD7900E13839 /* Square.hpp */,
 				80967F132814CD4400E13839 /* Chess */,
 				80967F122814CD4400E13839 /* Products */,
 			);
@@ -78,21 +98,6 @@
 		80967F132814CD4400E13839 /* Chess */ = {
 			isa = PBXGroup;
 			children = (
-				80967F142814CD4400E13839 /* main.cpp */,
-				80967F1B2814CD6E00E13839 /* Chess.cpp */,
-				80967F1E2814CD7900E13839 /* Square.cpp */,
-				80967F212814CD8400E13839 /* WhitePawn.cpp */,
-				80967F242814CD8F00E13839 /* BlackPawn.cpp */,
-				80967F272814CD9900E13839 /* Bishop.cpp */,
-				80967F2A2814CDA200E13839 /* King.cpp */,
-				80967F2D2814CDAF00E13839 /* Rook.cpp */,
-				80967F2E2814CDAF00E13839 /* Rook.hpp */,
-				80967F2B2814CDA200E13839 /* King.hpp */,
-				80967F282814CD9900E13839 /* Bishop.hpp */,
-				80967F252814CD8F00E13839 /* BlackPawn.hpp */,
-				80967F222814CD8400E13839 /* WhitePawn.hpp */,
-				80967F1F2814CD7900E13839 /* Square.hpp */,
-				80967F1C2814CD6E00E13839 /* Chess.hpp */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				80967F2F2814CDAF00E13839 /* Rook.cpp in Sources */,
 				80967F292814CD9900E13839 /* Bishop.cpp in Sources */,
 				80967F262814CD8F00E13839 /* BlackPawn.cpp in Sources */,
+				80967F322814D0C400E13839 /* TestCode.cpp in Sources */,
 				80967F2C2814CDA200E13839 /* King.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,3 +50,6 @@ void Bishop::move(char newFile, int newRank) {
     }
 }
 
+Square* const Bishop::getLocation()const{
+    return this->location;
+}
